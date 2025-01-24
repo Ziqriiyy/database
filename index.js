@@ -17,7 +17,7 @@ require('dotenv').config(); // Load environment variables from the .env file
 const uri = 'mongodb+srv://zikrideen:Zikri123@bamboo.5jvjm.mongodb.net/?retryWrites=true&w=majority';
 
 
-
+//apa
 
 // MongoDB client setup
 const client = new MongoClient(uri, {
