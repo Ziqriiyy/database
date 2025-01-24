@@ -820,10 +820,10 @@ app.delete('/scores/:username', verifyUser, async (req, res) => {
   }
 });
 
-// Serve the main HTML page
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'game.html'));
-});
+// // Serve the main HTML page
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'public', 'game.html'));
+// });
 
 // Start the Express server
 app.listen(port, () => {
